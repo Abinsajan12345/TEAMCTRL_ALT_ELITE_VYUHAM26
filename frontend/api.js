@@ -7,7 +7,7 @@
 // grade secret storage. No API keys (Anthropic or otherwise) are ever
 // stored or referenced here; only the user own JWT issued by the backend.
 
-const API_BASE = "http://127.0.0.1:8000";
+const API_BASE = "https://orgmind-ai-backend-ho2a.onrender.com";
 const TOKEN_KEY = "orgmind_token";
 
 function getToken() {
